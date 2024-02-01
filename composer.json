@@ -1,0 +1,32 @@
+{
+    "name": "dgaitan/serializable",
+    "description": "Simple Seriazable Utilities for Laravel Models",
+    "type": "library",
+    "license": "Public",
+    "autoload": {
+        "psr-4": {
+            "Dgaitan\\Serializable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dgaitan\\Serializable\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Gaitan",
+            "email": "jdavid.gaitan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}
