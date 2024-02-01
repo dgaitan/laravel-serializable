@@ -1,0 +1,25 @@
+<?php
+namespace {{ namespace }};
+
+use Dgaitan\Serilizable\Serializer;
+
+class {{ class }} extends Serializer
+{
+    /**
+     * Model reference
+     *
+     * @var null|string
+     */
+    protected null|string $model = null;
+
+    /**
+     * Serialize the model
+     *
+     * @param \Illuminate\Database\Eloquent\Model $model
+     * @return array
+     */
+    public function toArray(Model $model): array
+    {
+        return $model->toArray();
+    }
+}
