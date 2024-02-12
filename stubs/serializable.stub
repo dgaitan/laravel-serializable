@@ -1,7 +1,7 @@
 <?php
 namespace {{ namespace }};
 
-use Dgaitan\Serilizable\Serializer;
+use Dgaitan\Serializable\Serializer;
 
 class {{ class }} extends Serializer
 {

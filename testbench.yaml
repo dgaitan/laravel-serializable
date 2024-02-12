@@ -1,0 +1,7 @@
+providers:
+  - Dgaitan\Serializable\Providers\SerializableServiceProvider
+
+migrations: true
+
+workbench:
+  install: true

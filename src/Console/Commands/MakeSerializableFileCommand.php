@@ -5,7 +5,7 @@ namespace Dgaitan\Serializable\Console\Commands;
 use Illuminate\Console\GeneratorCommand;
 
 final class MakeSerializableFileCommand extends GeneratorCommand {
-    protected $signature = "make:serializable {name : The DTO Name}";
+    protected $signature = "make:serializable {name : The Serializable File}";
 
     protected $description = "Create a new Serializable class";
 
